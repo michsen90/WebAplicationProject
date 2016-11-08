@@ -1,0 +1,11 @@
+﻿
+DROP TABLE IF EXISTS klienci;
+CREATE TABLE klienci (
+Id_klienta int,
+Imie varchar(50),
+Nazwisko varchar(50),
+PESEL varchar (11),
+
+primary key (Id_klienta)
+)
+
