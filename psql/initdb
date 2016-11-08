@@ -5,6 +5,7 @@ Id_klienta int,
 Imie varchar(50),
 Nazwisko varchar(50),
 PESEL varchar (11),
+Miasto varchar (20),
 
 primary key (Id_klienta)
 )
